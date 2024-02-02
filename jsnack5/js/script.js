@@ -9,6 +9,6 @@ const resultsCube = document.getElementById(`result`);
 for (let i = 1; i <= userNumber; i++) {
 
      const cubeNumber = i * i * i;
-     resultsCube.innerHTML += cubeNumber;
+     resultsCube.innerHTML += cubeNumber + ",";
     
 }
