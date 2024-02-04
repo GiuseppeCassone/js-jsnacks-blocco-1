@@ -1,14 +1,22 @@
+@font-face {
+  font-family: "Diablo";
+  src: url(../fonts/Diablo\ Heavy.ttf);
+}
+
+
 body{
     height: 100vh;
     background: rgb(121,9,17);
     background: linear-gradient(180deg, rgb(90, 7, 13) 0%, rgba(0,0,0,1) 69%);
-    font-family: 'DotGothic16', sans-serif;
+    font-family: "Diablo", sans-serif;
 }
 
 h1{
     color: #919602;
-    text-shadow: 3px 3px black;
+    text-shadow: 5px 5px black;
+    font-size: 60px;
 }
+
 
 .button-13 {
   touch-action: manipulation;
