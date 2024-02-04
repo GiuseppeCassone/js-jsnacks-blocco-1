@@ -11,5 +11,5 @@ for(let i = 0; i < arrayNumbers.length; i++) {
 
 const mediaNumbers = sum / arrayNumbers.length;
 
-document.getElementById(`sum`).innerHTML = sum;
-document.getElementById(`media`).innerHTML = mediaNumbers;
+document.getElementById(`sum`).innerHTML = "Somma : " + sum;
+document.getElementById(`media`).innerHTML = "Media : " + mediaNumbers;
